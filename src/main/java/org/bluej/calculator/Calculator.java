@@ -1,4 +1,4 @@
-package org.bluej.calkulator;
+package org.bluej.calculator;
 
 /**
  * The main class of a simple calculator. Create one of these and you'll

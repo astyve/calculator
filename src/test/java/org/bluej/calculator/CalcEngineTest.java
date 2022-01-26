@@ -1,4 +1,4 @@
-package org.bluej.calkulator;
+package org.bluej.calculator;
 
 import org.junit.Test;
 

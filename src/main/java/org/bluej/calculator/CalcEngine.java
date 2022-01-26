@@ -1,4 +1,4 @@
-package org.bluej.calkulator;
+package org.bluej.calculator;
 
 /**
  * The main part of the calculator doing the calculations.

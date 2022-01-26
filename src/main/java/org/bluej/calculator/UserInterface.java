@@ -1,4 +1,4 @@
-package org.bluej.calkulator;
+package org.bluej.calculator;
 
 import java.awt.*;
 import javax.swing.*;
