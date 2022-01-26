@@ -9,6 +9,7 @@ package org.bluej.calculator;
 public class CalcEngine
 {
     // Put instance variables here.
+    private int displayValue;
 
     /**
      * Create a CalcEngine.
