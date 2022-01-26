@@ -11,6 +11,8 @@ public class CalcEngine
     // Put instance variables here.
     private int displayValue;
 
+    private int leftOperand;
+
     /**
      * Create a CalcEngine.
      */
