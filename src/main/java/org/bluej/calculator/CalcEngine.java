@@ -10,6 +10,8 @@ public class CalcEngine
 {
     // Put instance variables here.
     private int displayValue;
+    
+    private boolean displayValueBeeingCreated;
 
     /**
      * Create a CalcEngine.
