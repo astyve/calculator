@@ -1,4 +1,4 @@
-package org.bluej.calculator;
+package org.bluej.calkulator;
 
 /**
  * The main class of a simple calculator. Create one of these and you'll
@@ -28,7 +28,6 @@ public class Calculator
     {
         gui.setVisible(true);
     }
-
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
     }

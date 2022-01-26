@@ -1,4 +1,4 @@
-package org.bluej.calculator;
+package org.bluej.calkulator;
 
 /**
  * The main part of the calculator doing the calculations.
@@ -9,6 +9,8 @@ package org.bluej.calculator;
 public class CalcEngine
 {
     // Put instance variables here.
+    int displayNumber = 0;
+    int storedNumber = 0;
 
     /**
      * Create a CalcEngine.
@@ -23,7 +25,7 @@ public class CalcEngine
      */
     public int getDisplayValue()
     {
-        return 0;
+        return this.displayNumber;
     }
 
     /**
@@ -34,6 +36,7 @@ public class CalcEngine
      */
     public void numberPressed(int number)
     {
+        this.displayNumber = Integer.parseInt("" + this.displayNumber + number);
     }
 
     /**
@@ -41,6 +44,9 @@ public class CalcEngine
      */
     public void plus()
     {
+        equals();
+        this.storedNumber = this.displayNumber;
+        this.displayNumber = 0;
     }
 
     /**
@@ -55,6 +61,8 @@ public class CalcEngine
      */
     public void equals()
     {
+        this.displayNumber = this.storedNumber + this.displayNumber;
+        this.storedNumber = this.displayNumber;
     }
 
     /**
@@ -62,6 +70,8 @@ public class CalcEngine
      */
     public void clear()
     {
+        this.displayNumber = 0;
+        this.storedNumber = 0;
     }
 
     /**
