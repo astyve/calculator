@@ -13,7 +13,7 @@ public class CalcEngine
     
     private boolean displayValueBeeingCreated;
 
-    private int leftOperand;
+    private int leftOperandA;
 
     /**
      * Create a CalcEngine.
