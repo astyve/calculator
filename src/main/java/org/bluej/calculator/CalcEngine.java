@@ -14,7 +14,7 @@ public class CalcEngine
     private boolean displayValueBeeingCreated;
 
 
-    private int leftOperandA;
+    private int leftOperandB;
 
 
     /**
