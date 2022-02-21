@@ -15,6 +15,8 @@ public class CalcEngine
 
     private int leftOperandC;
 
+    private String hotFix;
+
 
     /**
      * Create a CalcEngine.
