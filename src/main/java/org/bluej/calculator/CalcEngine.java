@@ -14,8 +14,7 @@ public class CalcEngine
     private boolean displayValueBeeingCreated;
 
     private int leftOperandC;
-
-    private String test;
+    
 
 
     /**
